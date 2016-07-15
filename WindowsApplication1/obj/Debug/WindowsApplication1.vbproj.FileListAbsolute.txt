@@ -1,0 +1,13 @@
+C:\Users\Doug\Documents\GitHub\SimpleCMMS\WindowsApplication1\bin\Debug\SimpleCMMS.exe.config
+C:\Users\Doug\Documents\GitHub\SimpleCMMS\WindowsApplication1\bin\Debug\SimpleCMMS.mdf
+C:\Users\Doug\Documents\GitHub\SimpleCMMS\WindowsApplication1\bin\Debug\SimpleCMMS_log.ldf
+C:\Users\Doug\Documents\GitHub\SimpleCMMS\WindowsApplication1\bin\Debug\SimpleCMMS.exe
+C:\Users\Doug\Documents\GitHub\SimpleCMMS\WindowsApplication1\bin\Debug\SimpleCMMS.pdb
+C:\Users\Doug\Documents\GitHub\SimpleCMMS\WindowsApplication1\bin\Debug\SimpleCMMS.xml
+C:\Users\Doug\Documents\GitHub\SimpleCMMS\WindowsApplication1\obj\Debug\WindowsApplication1.vbprojResolveAssemblyReference.cache
+C:\Users\Doug\Documents\GitHub\SimpleCMMS\WindowsApplication1\obj\Debug\WindowsApplication1.Form1.resources
+C:\Users\Doug\Documents\GitHub\SimpleCMMS\WindowsApplication1\obj\Debug\WindowsApplication1.Resources.resources
+C:\Users\Doug\Documents\GitHub\SimpleCMMS\WindowsApplication1\obj\Debug\WindowsApplication1.vbproj.GenerateResource.Cache
+C:\Users\Doug\Documents\GitHub\SimpleCMMS\WindowsApplication1\obj\Debug\SimpleCMMS.exe
+C:\Users\Doug\Documents\GitHub\SimpleCMMS\WindowsApplication1\obj\Debug\SimpleCMMS.xml
+C:\Users\Doug\Documents\GitHub\SimpleCMMS\WindowsApplication1\obj\Debug\SimpleCMMS.pdb
