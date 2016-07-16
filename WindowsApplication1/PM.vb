@@ -84,9 +84,19 @@ Public Class PM
     End Sub
 
     Private Sub DataGridView1_CellMouseDoubleClick(sender As Object, e As DataGridViewCellEventArgs) Handles DataGridView1.CellContentDoubleClick
+        If e.RowIndex >= 0 Then
+            Dim selectedRow = DataGridView1.Rows(e.RowIndex)
+            Dim MyRow As Integer = DataGridView1.CurrentRow.Cells(0).Value
+            PM1.Show()
+            'PM1.Label1.Text = "yes"
+            PM1.Label12.Text = MyRow
+            'Me.Close()
+        End If
 
 
         PM1.Show()
 
     End Sub
+
+
 End Class

@@ -130,6 +130,15 @@ Public Class Main
             Me.Text = "Simple CMMS"
             Label1.Text = ""
             Label2.Text = 0
+            setup.Close()
+            Vendors.Close()
+            PM.Close()
+            Requests.Close()
+            Parts.Close()
+            Work1.Close()
+            Reports.Close()
+            Count.MdiParent = Me
+            Count.Show()
             MsgBox("You Have Logged Out, Press The Login/Out Button To Login")
         End If
     End Sub
