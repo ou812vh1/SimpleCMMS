@@ -51,7 +51,7 @@ Public Class PM1
                 'MsgBox("Connection Made")
                 TextBox1.Text = SQLDS.Tables(0).Rows(0).Item(1).ToString ' PMName
                 ComboBox1.Text = SQLDS.Tables(0).Rows(0).Item(2).ToString ' WOScheduled
-                MyInterval = Split(SQLDS.Tables(0).Rows(0).Item(3).ToString, " ")
+                MyInterval = Split(SQLDS.Tables(0).Rows(0).Item(4).ToString, " ")
                 ComboBox2.Text = MyInterval(0)
                 ComboBox3.Text = MyInterval(1)
 

@@ -29,11 +29,12 @@ Public Class setup
         Me.Close()
     End Sub
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
-
         If TabControl1.SelectedIndex.ToString = 0 Then
             LoadCompany()
         ElseIf TabControl1.SelectedIndex.ToString = 1 Then
-            LoadEmpInfo()
+            If Label35.Text <> "" Then
+                LoadEmpInfo()
+            End If
         End If
 
         'Main.ToolStrip1.Enabled = True
@@ -233,6 +234,7 @@ Public Class setup
                 Exit Sub
             Else
                 Employee = SQLDS.Tables(0).Rows(0).Item(0)
+                Label35.Text = Employee
                 TextBox18.Text = SQLDS.Tables(0).Rows(0).Item(1)
                 If IsDBNull(SQLDS.Tables(0).Rows(0).Item(2)) = False Then
                     TextBox10.Text = SQLDS.Tables(0).Rows(0).Item(2)
@@ -360,6 +362,31 @@ Public Class setup
         Finally
             If SQLConn.State = ConnectionState.Open Then SQLConn.Close()
         End Try
+        DupEmp()
+    End Sub
+    Private Sub DupEmp()
+        TextBox31.Text = TextBox10.Text
+        TextBox32.Text = TextBox11.Text
+        TextBox33.Text = TextBox12.Text
+        TextBox34.Text = TextBox13.Text
+        TextBox35.Text = TextBox14.Text
+        TextBox36.Text = TextBox15.Text
+        TextBox37.Text = TextBox16.Text
+        TextBox38.Text = TextBox17.Text
+        TextBox39.Text = TextBox18.Text
+        TextBox40.Text = TextBox19.Text
+        TextBox41.Text = TextBox20.Text
+        TextBox42.Text = TextBox29.Text
+        TextBox43.Text = TextBox30.Text
+        CheckBox1.Checked = CheckBox2.Checked
+        TextBox44.Text = TextBox21.Text
+        TextBox45.Text = TextBox22.Text
+        TextBox46.Text = TextBox23.Text
+        TextBox47.Text = TextBox24.Text
+        TextBox48.Text = TextBox25.Text
+        TextBox49.Text = TextBox26.Text
+        TextBox50.Text = TextBox27.Text
+        TextBox51.Text = TextBox28.Text
     End Sub
     Private Sub SaveEmpInfo()
         Try
@@ -576,6 +603,74 @@ Public Class setup
             Button7.Visible = False
         End If
         Main.ToolStrip1.Enabled = True
+    End Sub
+    Private Sub ClearEmp()
+        Label35.Text = ""
+        Label14.Text = ""
+        Label15.Text = ""
+        TextBox18.Text = ""
+        TextBox10.Text = ""
+        TextBox11.Text = ""
+        TextBox12.Text = ""
+        TextBox13.Text = ""
+        TextBox14.Text = ""
+        TextBox15.Text = ""
+        TextBox16.Text = ""
+        TextBox17.Text = ""
+        TextBox29.Text = ""
+        TextBox19.Text = ""
+        TextBox20.Text = ""
+        TextBox30.Text = ""
+        TextBox21.Text = ""
+        CheckBox2.Checked = False
+        TextBox22.Text = ""
+        TextBox23.Text = ""
+        TextBox24.Text = ""
+        TextBox25.Text = ""
+        TextBox26.Text = ""
+        TextBox27.Text = ""
+        TextBox28.Text = ""
+    End Sub
+    Private Sub Button7_Click(sender As Object, e As EventArgs) Handles Button7.Click
+        ClearEmp()
+        DupEmp()
+    End Sub
+
+    Private Sub Timer2_Tick(sender As Object, e As EventArgs) Handles Timer2.Tick
+        If TabControl1.SelectedIndex.ToString = 0 Then
+
+        ElseIf TabControl1.SelectedIndex.ToString = 1 Then
+            If TextBox31.Text = TextBox10.Text And
+                TextBox32.Text = TextBox11.Text And
+                TextBox33.Text = TextBox12.Text And
+                TextBox34.Text = TextBox13.Text And
+                TextBox35.Text = TextBox14.Text And
+                TextBox36.Text = TextBox15.Text And
+                TextBox37.Text = TextBox16.Text And
+                TextBox38.Text = TextBox17.Text And
+                TextBox39.Text = TextBox18.Text And
+                TextBox40.Text = TextBox19.Text And
+                TextBox41.Text = TextBox20.Text And
+                TextBox42.Text = TextBox29.Text And
+                TextBox43.Text = TextBox30.Text And
+                CheckBox1.Checked = CheckBox2.Checked And
+                TextBox44.Text = TextBox21.Text And
+                TextBox45.Text = TextBox22.Text And
+                TextBox46.Text = TextBox23.Text And
+                TextBox47.Text = TextBox24.Text And
+                TextBox48.Text = TextBox25.Text And
+                TextBox49.Text = TextBox26.Text And
+                TextBox50.Text = TextBox27.Text And
+                TextBox51.Text = TextBox28.Text Then
+                Button2.Enabled = False
+                Button3.Enabled = False
+            Else
+                Button2.Enabled = True
+                Button3.Enabled = True
+            End If
+        ElseIf TabControl1.SelectedIndex.ToString = 2 Then
+
+        End If
     End Sub
 End Class
 

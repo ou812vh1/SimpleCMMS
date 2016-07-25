@@ -110,6 +110,29 @@ Partial Class setup
         Me.Label35 = New System.Windows.Forms.Label()
         Me.Button7 = New System.Windows.Forms.Button()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
+        Me.Timer2 = New System.Windows.Forms.Timer(Me.components)
+        Me.TextBox31 = New System.Windows.Forms.TextBox()
+        Me.TextBox32 = New System.Windows.Forms.TextBox()
+        Me.TextBox33 = New System.Windows.Forms.TextBox()
+        Me.TextBox34 = New System.Windows.Forms.TextBox()
+        Me.TextBox35 = New System.Windows.Forms.TextBox()
+        Me.TextBox36 = New System.Windows.Forms.TextBox()
+        Me.TextBox37 = New System.Windows.Forms.TextBox()
+        Me.TextBox38 = New System.Windows.Forms.TextBox()
+        Me.TextBox39 = New System.Windows.Forms.TextBox()
+        Me.TextBox40 = New System.Windows.Forms.TextBox()
+        Me.TextBox41 = New System.Windows.Forms.TextBox()
+        Me.TextBox42 = New System.Windows.Forms.TextBox()
+        Me.TextBox43 = New System.Windows.Forms.TextBox()
+        Me.CheckBox1 = New System.Windows.Forms.CheckBox()
+        Me.TextBox44 = New System.Windows.Forms.TextBox()
+        Me.TextBox45 = New System.Windows.Forms.TextBox()
+        Me.TextBox46 = New System.Windows.Forms.TextBox()
+        Me.TextBox47 = New System.Windows.Forms.TextBox()
+        Me.TextBox48 = New System.Windows.Forms.TextBox()
+        Me.TextBox49 = New System.Windows.Forms.TextBox()
+        Me.TextBox50 = New System.Windows.Forms.TextBox()
+        Me.TextBox51 = New System.Windows.Forms.TextBox()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
         Me.TabPage2.SuspendLayout()
@@ -140,6 +163,7 @@ Partial Class setup
         '
         'Button2
         '
+        Me.Button2.Enabled = False
         Me.Button2.Location = New System.Drawing.Point(731, 132)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(128, 33)
@@ -149,6 +173,7 @@ Partial Class setup
         '
         'Button3
         '
+        Me.Button3.Enabled = False
         Me.Button3.Location = New System.Drawing.Point(731, 83)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(128, 33)
@@ -941,30 +966,27 @@ Partial Class setup
         '
         'Label14
         '
-        Me.Label14.AutoSize = True
+        Me.Label14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Label14.Location = New System.Drawing.Point(764, 244)
         Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(45, 13)
+        Me.Label14.Size = New System.Drawing.Size(77, 23)
         Me.Label14.TabIndex = 40
-        Me.Label14.Text = "Label14"
         '
         'Label15
         '
-        Me.Label15.AutoSize = True
-        Me.Label15.Location = New System.Drawing.Point(764, 266)
+        Me.Label15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Label15.Location = New System.Drawing.Point(764, 271)
         Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(45, 13)
+        Me.Label15.Size = New System.Drawing.Size(77, 23)
         Me.Label15.TabIndex = 41
-        Me.Label15.Text = "Label15"
         '
         'Label35
         '
-        Me.Label35.AutoSize = True
-        Me.Label35.Location = New System.Drawing.Point(764, 282)
+        Me.Label35.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Label35.Location = New System.Drawing.Point(764, 300)
         Me.Label35.Name = "Label35"
-        Me.Label35.Size = New System.Drawing.Size(45, 13)
+        Me.Label35.Size = New System.Drawing.Size(77, 23)
         Me.Label35.TabIndex = 42
-        Me.Label35.Text = "Label35"
         '
         'Button7
         '
@@ -981,11 +1003,216 @@ Partial Class setup
         Me.Timer1.Enabled = True
         Me.Timer1.Interval = 50
         '
+        'Timer2
+        '
+        Me.Timer2.Enabled = True
+        Me.Timer2.Interval = 50
+        '
+        'TextBox31
+        '
+        Me.TextBox31.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.TextBox31.Location = New System.Drawing.Point(865, 31)
+        Me.TextBox31.Name = "TextBox31"
+        Me.TextBox31.Size = New System.Drawing.Size(60, 20)
+        Me.TextBox31.TabIndex = 99
+        '
+        'TextBox32
+        '
+        Me.TextBox32.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.TextBox32.Location = New System.Drawing.Point(865, 57)
+        Me.TextBox32.Name = "TextBox32"
+        Me.TextBox32.Size = New System.Drawing.Size(60, 20)
+        Me.TextBox32.TabIndex = 98
+        '
+        'TextBox33
+        '
+        Me.TextBox33.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.TextBox33.Location = New System.Drawing.Point(865, 83)
+        Me.TextBox33.Name = "TextBox33"
+        Me.TextBox33.Size = New System.Drawing.Size(60, 20)
+        Me.TextBox33.TabIndex = 97
+        '
+        'TextBox34
+        '
+        Me.TextBox34.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.TextBox34.Location = New System.Drawing.Point(865, 108)
+        Me.TextBox34.Name = "TextBox34"
+        Me.TextBox34.Size = New System.Drawing.Size(60, 20)
+        Me.TextBox34.TabIndex = 96
+        '
+        'TextBox35
+        '
+        Me.TextBox35.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.TextBox35.Location = New System.Drawing.Point(865, 134)
+        Me.TextBox35.Name = "TextBox35"
+        Me.TextBox35.Size = New System.Drawing.Size(60, 20)
+        Me.TextBox35.TabIndex = 95
+        '
+        'TextBox36
+        '
+        Me.TextBox36.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.TextBox36.Location = New System.Drawing.Point(865, 160)
+        Me.TextBox36.Name = "TextBox36"
+        Me.TextBox36.Size = New System.Drawing.Size(60, 20)
+        Me.TextBox36.TabIndex = 94
+        '
+        'TextBox37
+        '
+        Me.TextBox37.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.TextBox37.Location = New System.Drawing.Point(865, 186)
+        Me.TextBox37.Name = "TextBox37"
+        Me.TextBox37.Size = New System.Drawing.Size(60, 20)
+        Me.TextBox37.TabIndex = 93
+        '
+        'TextBox38
+        '
+        Me.TextBox38.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.TextBox38.Location = New System.Drawing.Point(865, 212)
+        Me.TextBox38.Name = "TextBox38"
+        Me.TextBox38.Size = New System.Drawing.Size(60, 20)
+        Me.TextBox38.TabIndex = 92
+        '
+        'TextBox39
+        '
+        Me.TextBox39.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.TextBox39.Location = New System.Drawing.Point(865, 237)
+        Me.TextBox39.Name = "TextBox39"
+        Me.TextBox39.Size = New System.Drawing.Size(60, 20)
+        Me.TextBox39.TabIndex = 91
+        '
+        'TextBox40
+        '
+        Me.TextBox40.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.TextBox40.Location = New System.Drawing.Point(865, 263)
+        Me.TextBox40.Name = "TextBox40"
+        Me.TextBox40.Size = New System.Drawing.Size(60, 20)
+        Me.TextBox40.TabIndex = 90
+        '
+        'TextBox41
+        '
+        Me.TextBox41.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.TextBox41.Location = New System.Drawing.Point(865, 288)
+        Me.TextBox41.Name = "TextBox41"
+        Me.TextBox41.Size = New System.Drawing.Size(60, 20)
+        Me.TextBox41.TabIndex = 89
+        '
+        'TextBox42
+        '
+        Me.TextBox42.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.TextBox42.Location = New System.Drawing.Point(865, 312)
+        Me.TextBox42.Name = "TextBox42"
+        Me.TextBox42.Size = New System.Drawing.Size(60, 20)
+        Me.TextBox42.TabIndex = 88
+        '
+        'TextBox43
+        '
+        Me.TextBox43.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.TextBox43.Location = New System.Drawing.Point(865, 336)
+        Me.TextBox43.Name = "TextBox43"
+        Me.TextBox43.Size = New System.Drawing.Size(60, 20)
+        Me.TextBox43.TabIndex = 87
+        '
+        'CheckBox1
+        '
+        Me.CheckBox1.AutoSize = True
+        Me.CheckBox1.Location = New System.Drawing.Point(769, 336)
+        Me.CheckBox1.Name = "CheckBox1"
+        Me.CheckBox1.Size = New System.Drawing.Size(72, 17)
+        Me.CheckBox1.TabIndex = 100
+        Me.CheckBox1.Text = "Employee"
+        Me.CheckBox1.UseVisualStyleBackColor = True
+        '
+        'TextBox44
+        '
+        Me.TextBox44.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.TextBox44.Location = New System.Drawing.Point(865, 362)
+        Me.TextBox44.Name = "TextBox44"
+        Me.TextBox44.Size = New System.Drawing.Size(60, 20)
+        Me.TextBox44.TabIndex = 108
+        '
+        'TextBox45
+        '
+        Me.TextBox45.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.TextBox45.Location = New System.Drawing.Point(865, 388)
+        Me.TextBox45.Name = "TextBox45"
+        Me.TextBox45.Size = New System.Drawing.Size(60, 20)
+        Me.TextBox45.TabIndex = 107
+        '
+        'TextBox46
+        '
+        Me.TextBox46.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.TextBox46.Location = New System.Drawing.Point(865, 414)
+        Me.TextBox46.Name = "TextBox46"
+        Me.TextBox46.Size = New System.Drawing.Size(60, 20)
+        Me.TextBox46.TabIndex = 106
+        '
+        'TextBox47
+        '
+        Me.TextBox47.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.TextBox47.Location = New System.Drawing.Point(865, 440)
+        Me.TextBox47.Name = "TextBox47"
+        Me.TextBox47.Size = New System.Drawing.Size(60, 20)
+        Me.TextBox47.TabIndex = 105
+        '
+        'TextBox48
+        '
+        Me.TextBox48.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.TextBox48.Location = New System.Drawing.Point(865, 466)
+        Me.TextBox48.Name = "TextBox48"
+        Me.TextBox48.Size = New System.Drawing.Size(60, 20)
+        Me.TextBox48.TabIndex = 104
+        '
+        'TextBox49
+        '
+        Me.TextBox49.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.TextBox49.Location = New System.Drawing.Point(931, 416)
+        Me.TextBox49.Name = "TextBox49"
+        Me.TextBox49.Size = New System.Drawing.Size(60, 20)
+        Me.TextBox49.TabIndex = 103
+        '
+        'TextBox50
+        '
+        Me.TextBox50.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.TextBox50.Location = New System.Drawing.Point(931, 440)
+        Me.TextBox50.Name = "TextBox50"
+        Me.TextBox50.Size = New System.Drawing.Size(60, 20)
+        Me.TextBox50.TabIndex = 102
+        '
+        'TextBox51
+        '
+        Me.TextBox51.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.TextBox51.Location = New System.Drawing.Point(931, 464)
+        Me.TextBox51.Name = "TextBox51"
+        Me.TextBox51.Size = New System.Drawing.Size(60, 20)
+        Me.TextBox51.TabIndex = 101
+        '
         'setup
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(990, 500)
+        Me.Controls.Add(Me.TextBox44)
+        Me.Controls.Add(Me.TextBox45)
+        Me.Controls.Add(Me.TextBox46)
+        Me.Controls.Add(Me.TextBox47)
+        Me.Controls.Add(Me.TextBox48)
+        Me.Controls.Add(Me.TextBox49)
+        Me.Controls.Add(Me.TextBox50)
+        Me.Controls.Add(Me.TextBox51)
+        Me.Controls.Add(Me.CheckBox1)
+        Me.Controls.Add(Me.TextBox31)
+        Me.Controls.Add(Me.TextBox32)
+        Me.Controls.Add(Me.TextBox33)
+        Me.Controls.Add(Me.TextBox34)
+        Me.Controls.Add(Me.TextBox35)
+        Me.Controls.Add(Me.TextBox36)
+        Me.Controls.Add(Me.TextBox37)
+        Me.Controls.Add(Me.TextBox38)
+        Me.Controls.Add(Me.TextBox39)
+        Me.Controls.Add(Me.TextBox40)
+        Me.Controls.Add(Me.TextBox41)
+        Me.Controls.Add(Me.TextBox42)
+        Me.Controls.Add(Me.TextBox43)
         Me.Controls.Add(Me.Button7)
         Me.Controls.Add(Me.Label35)
         Me.Controls.Add(Me.Label15)
@@ -1103,4 +1330,27 @@ Partial Class setup
     Friend WithEvents ListBox2 As ListBox
     Friend WithEvents Button7 As Button
     Friend WithEvents Timer1 As Timer
+    Friend WithEvents Timer2 As Timer
+    Friend WithEvents TextBox31 As TextBox
+    Friend WithEvents TextBox32 As TextBox
+    Friend WithEvents TextBox33 As TextBox
+    Friend WithEvents TextBox34 As TextBox
+    Friend WithEvents TextBox35 As TextBox
+    Friend WithEvents TextBox36 As TextBox
+    Friend WithEvents TextBox37 As TextBox
+    Friend WithEvents TextBox38 As TextBox
+    Friend WithEvents TextBox39 As TextBox
+    Friend WithEvents TextBox40 As TextBox
+    Friend WithEvents TextBox41 As TextBox
+    Friend WithEvents TextBox42 As TextBox
+    Friend WithEvents TextBox43 As TextBox
+    Friend WithEvents CheckBox1 As CheckBox
+    Friend WithEvents TextBox44 As TextBox
+    Friend WithEvents TextBox45 As TextBox
+    Friend WithEvents TextBox46 As TextBox
+    Friend WithEvents TextBox47 As TextBox
+    Friend WithEvents TextBox48 As TextBox
+    Friend WithEvents TextBox49 As TextBox
+    Friend WithEvents TextBox50 As TextBox
+    Friend WithEvents TextBox51 As TextBox
 End Class
