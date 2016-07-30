@@ -27,3 +27,7 @@ C:\Users\Doug\Documents\GitHub\SimpleCMMS\WindowsApplication1\obj\Debug\SimpleCM
 C:\Users\Doug\Documents\GitHub\SimpleCMMS\WindowsApplication1\obj\Debug\SimpleCMMS.Parts1.resources
 C:\Users\Doug\Documents\GitHub\SimpleCMMS\WindowsApplication1\obj\Debug\SimpleCMMS.Count.resources
 C:\Users\Doug\Documents\GitHub\SimpleCMMS\WindowsApplication1\obj\Debug\SimpleCMMS.LoginForm1.resources
+C:\Users\dougr\OneDrive\Documents\GitHub\SimpleCMMS\WindowsApplication1\bin\Debug\SimpleCMMS.exe.config
+C:\Users\dougr\OneDrive\Documents\GitHub\SimpleCMMS\WindowsApplication1\obj\Debug\SimpleCMMS.exe
+C:\Users\dougr\OneDrive\Documents\GitHub\SimpleCMMS\WindowsApplication1\obj\Debug\SimpleCMMS.xml
+C:\Users\dougr\OneDrive\Documents\GitHub\SimpleCMMS\WindowsApplication1\obj\Debug\SimpleCMMS.pdb
